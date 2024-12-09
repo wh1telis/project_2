@@ -1,0 +1,36 @@
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+@font-face {
+    font-family: 'Winter Insight';
+    src: url('/workspaces/project_2/fonts/Winter Insight.ttf');
+}
+}
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.list_nav {
+    border: solid 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 100px;
+    
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+.h1 {
+    font-family: 'Winter Insight';
+}
+.text {
+}
